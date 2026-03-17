@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ÉletTér - Otthoni akadálymentesítés és térrendezés időseknek és mozgáskorlátozottaknak Budapesten. Ingyenes felmérés!">
+  <title>ÉletTér | Biztonságos és kényelmes otthon minden korban</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --secondary: #27ae60;
+      --accent: #e67e22;
+      --light: #f8f9fa;
+      --dark: #212529;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; margin: 0; background: var(--light); color: var(--dark); line-height: 1.8; font-size: 19px; }
+    h1, h2, h3 { font-family: 'Montserrat', sans-serif; font-weight: 700; }
+    header { background: linear-gradient(rgba(44,62,80,0.9), rgba(44,62,80,0.9)), url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000'); background-size: cover; background-position: center; color: white; padding: 80px 20px; text-align: center; }
+    .hero-title { font-size: 3rem; margin: 0; letter-spacing: 2px; }
+    .hero-sub { font-size: 1.4rem; font-weight: 300; max-width: 700px; margin: 20px auto; }
+    .btn { display: inline-block; padding: 18px 35px; background: var(--accent); color: white; text-decoration: none; border-radius: 50px; font-weight: bold; transition: transform 0.2s, background 0.2s; box-shadow: 0 4px 15px rgba(230,126,34,0.4); margin-top: 20px; }
+    .btn:hover { transform: scale(1.05); background: #d35400; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    .section-title { text-align: center; color: var(--primary); margin-bottom: 40px; position: relative; }
+    .section-title::after { content: ''; display: block; width: 60px; height: 4px; background: var(--secondary); margin: 10px auto; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+    .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 5px solid var(--secondary); }
+    .benefit-item { display: flex; align-items: flex-start; margin-bottom: 15px; }
+    .benefit-item span { color: var(--secondary); font-weight: bold; margin-right: 15px; font-size: 1.5rem; }
+    .highlight-box { background: var(--primary); color: white; padding: 40px; border-radius: 15px; text-align: center; margin: 40px 0; }
+    .contact-area { background: white; padding: 50px; border-radius: 20px; text-align: center; box-shadow: 0 15px 50px rgba(0,0,0,0.1); border: 2px solid var(--secondary); }
+    .contact-info { font-size: 1.5rem; margin: 20px 0; }
+    .contact-info a { color: var(--primary); text-decoration: none; font-weight: bold; border-bottom: 2px solid var(--secondary); }
+    footer { text-align: center; padding: 40px; background: #2c3e50; color: #bdc3c7; font-size: 16px; }
+    @media (max-width: 600px) { .hero-title { font-size: 2.2rem; } .hero-sub { font-size: 1.1rem; } .contact-info { font-size: 1.1rem; } section { padding: 40px 15px; } }
+  </style>
+</head>
+<body>
+<header>
+  <h1 class="hero-title">ÉletTér</h1>
+  <p class="hero-sub">Hogy az otthona ne akadály, hanem biztonságos támasz legyen a mindennapokban.</p>
+  <a href="#kapcsolat" class="btn">Ingyenes helyszíni felmérést kérek</a>
+</header>
+<section>
+  <h2 class="section-title">Miért válassza az ÉletTér szolgáltatást?</h2>
+  <div class="grid">
+    <div class="card">
+      <p>Sokszor apróságokon múlik a biztonság. Egy rossz helyen lévő szőnyeg, egy nehezen elérhető polc vagy egy zsúfolt közlekedő komoly kockázatot jelenthet.</p>
+      <p><strong>Szakértő szemmel nézzük át otthonát</strong>, és olyan változtatásokat javaslunk, amelyekkel elkerülhetőek a balesetek és könnyebbé válik a mozgás.</p>
+    </div>
+    <div class="card">
+      <div class="benefit-item"><span>✓</span> <p>Bútorok logikus átrendezése</p></div>
+      <div class="benefit-item"><span>✓</span> <p>Botlásveszély megszüntetése</p></div>
+      <div class="benefit-item"><span>✓</span> <p>Gyakran használt tárgyak kézre tétele</p></div>
+      <div class="benefit-item"><span>✓</span> <p>Átlátható, tiszta és rendezett terek</p></div>
+    </div>
+  </div>
+</section>
+<section style="background:#ebf5fb;">
+  <h2 class="section-title">Kinek tudunk segíteni?</h2>
+  <div class="grid">
+    <div class="card" style="border-top-color: var(--primary);">
+      <h3>Időseknek</h3>
+      <p>Aki szeretne saját otthonában, megszokott környezetében biztonságosan és önállóan élni.</p>
+    </div>
+    <div class="card" style="border-top-color: var(--primary);">
+      <h3>Mozgásukban korlátozottaknak</h3>
+      <p>Akiknek nehézséget okoz a lakás bizonyos pontjainak elérése vagy a biztonságos közlekedés.</p>
+    </div>
+    <div class="card" style="border-top-color: var(--primary);">
+      <h3>Hozzátartozóknak</h3>
+      <p>Akik távolról is nyugodtak akarnak lenni, tudva, hogy szerettük otthona balesetmentes.</p>
+    </div>
+    <div class="card" style="border-top-color: var(--primary);">
+      <h3>Rehabilitációs és közösségi intézményeknek</h3>
+      <p>Szolgáltatásunk rendelkezésre áll rehabilitációs intézmények, idősek otthona és egyéb közösségi lakókörnyezetek számára, hogy biztonságosabb és könnyebben használható tereket alakítsunk ki.</p>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="highlight-box">
+    <h2>Extra Takarítási Szolgáltatás</h2>
+    <p>Az átrendezés mellé kérjen teljes körű takarítást is! Ügyfeleinknek most <strong>12% kedvezményt</strong> biztosítunk a tisztasági szolgáltatás árából.</p>
+  </div>
+  <div class="contact-area" id="kapcsolat">
+    <h2 style="margin-top:0;">Kérjen ingyenes felmérést Budapesten!</h2>
+    <p>Személyesen mérjük fel az igényeket, és segítünk a legjobb megoldás kialakításában.</p>
+    <div class="contact-info">
+      <strong>Szakmai felelős:</strong> Tamás Imre<br>
+      <strong>Telefon:</strong> <a href="tel:+36701665737">06 70 166 5737</a><br>
+      <strong>Email:</strong> <a href="mailto:specialisszolgaltatas@gmail.com">specialisszolgaltatas@gmail.com</a>
+    </div>
+    <a href="tel:+36701665737" class="btn">Hívás indítása most</a>
+    <p style="font-size:0.9rem;color:#7f8c8d;margin-top:15px;">(Nem végzünk ápolási vagy gondozási tevékenységet, kizárólag a fizikai környezet javítására fókuszálunk.)</p>
+  </div>
+</section>
+<footer>
+  <p>&copy; 2026 ÉletTér - Az Ön otthona, az Ön biztonsága.</p>
+</footer>
+</body>
+</html>
+
